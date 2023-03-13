@@ -1,0 +1,110 @@
+#separator_1{
+    height: 70px;
+    width: auto;
+    color: blue;
+    background: burlywood;
+}
+
+body{
+    margin: 0px;
+}
+
+.linking-page {
+    text-decoration: none;
+}
+
+/*.imagini_header {
+    top: 0;
+    width: 100%;
+    background-image: url("https://i.imgur.com/Zxie7da.png");
+
+}*/
+
+#cocos_de_Hurez{
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    position: absolute;
+    right: 10px;
+}
+
+#peisaj_horezu_header{
+    height: 250px;
+    width: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.button-group {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+.butoane {
+    background-color: white;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: Shell Roundhand, cursive;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.butoane a {
+    text-decoration: none;
+    color: black;
+}
+
+.butoane:hover a {
+    text-decoration: none;
+    color: white;
+}
+
+.butoane:hover {
+    border: 2px solid peru;
+    color: white;
+    background-color: peru;
+}
+
+#separator_sub_butoane{
+    height: 20px;
+    width: auto;
+    color: blue;
+    background: white;
+}
+
+#istoric_index{
+padding-right: 200px;
+    padding-left: 200px;
+}
+p{
+    font-size: 25px;
+}
+.imagine_istoric{
+    padding-top: 0px;
+}
+.spinner{
+ height: 30px;
+    width: 30px;
+    animation: spinner 0.7s linear infinite;
+}
+@keyframes spinner {
+    to{
+        transform: rotate(360deg);
+    }
+}
+#Brad_Pitt{
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    left: 10px;
+}
+

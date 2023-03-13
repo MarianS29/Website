@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Pag_5_Date_de_contact_CSS.css">
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="div_spinner"></div>
+
+<div id="principal" style="display: none" class="animate-bottom">
+
+<div class="main" style="padding: 0;">
+    <div style="text-align: center; text-decoration: underline;">
+    <img src="Imagini/Background.jpg"  height="100%" width="100%">
+    <br>
+    <br><br>
+        <h1>Abonează-te la newsletter!</h1>
+    </div>
+    <br>
+    <div class="formular">
+        <form>
+            <div class="lining-form">
+                <label for="email" style="font-size: 20px;">Email:*</label>
+                <br>
+                <input type="text" id="email" name="email" style="width: 250px;">
+            </div>
+            <br><br>
+            <div class="lining-form">
+                <label for="name"  style="font-size: 20px;">Numele dvs.:*</label>
+                <br>
+                <input type="text" id="name" name="name" style="width: 250px;">
+            </div>
+            <br>
+        </form>
+    </div>
+    <a href="Pag_1_home.html"><button class="butoanev2" style="width: 33.33%; margin: 136px 0px 30px 30px;">< Înapoi</button></a>
+</div>
+</div>
+<script>
+    var myVar;
+
+    function myFunction() {
+        myVar = setTimeout(showPage, 1500);
+    }
+
+    function showPage() {
+        document.getElementById("div_spinner").style.display = "none";
+        document.getElementById("principal").style.display = "block";
+    }
+</script>
+</body>
+</html>
